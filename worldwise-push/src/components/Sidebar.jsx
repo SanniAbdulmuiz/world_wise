@@ -7,6 +7,7 @@ function SideBar() {
   return (
     <div className={styles.sidebar}>
       <Logo />
+
       <AppNav />
 
       <Outlet />
